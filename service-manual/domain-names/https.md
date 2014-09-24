@@ -36,7 +36,6 @@ Strict Transport Security 或 [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_T
 都得是經由 HTTPS、不能有安全連線與不安全連線混用的頁面內容 (就是頁面中有些內容是用 HTTPS 送出來的、有些是用 HTTP 送出來的)
 這對連線安全的可信度提供了額外的保障。
 
-Once a service manager has verified that their HTTPS setup is working fine they SHOULD enable
 一旦一個服務的管理者確認了他們的 HTTPS 設置可以順利運作，他們 *應該* 在 production 網域 (如 www.、admin. 和 assets.) 上
 以設置一個如下的 HTTP response header 來啟用 HSTS。
 
